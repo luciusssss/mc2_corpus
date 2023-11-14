@@ -1,19 +1,19 @@
-# MC$^2$: Multilingual Corpus of Minority Languages in China
+# MC^2: Multilingual Corpus of Minority Languages in China
 
-We present MC$^2$, a **M**ultilingual **C**orpus of **M**inority Languages in **C**hina, which is the largest open-source corpus so far. This corpus encompasses four languages, namely Tibetan, Uyghur, Kazakh written in the Kazakh Arabic script, and Mongolian written in the traditional Mongolian script.
+We present MC^2, a **M**ultilingual **C**orpus of **M**inority Languages in **C**hina, which is the largest open-source corpus so far. This corpus encompasses four languages, namely Tibetan, Uyghur, Kazakh written in the Kazakh Arabic script, and Mongolian written in the traditional Mongolian script.
 
 ## Languages and Sizes
 
 There are four minority languages in dataset, and we report the dataset sizes below:
 
-|                             | MC$^2$ (crawl) | MC$^2$ (full) |
-| --------------------------- | -------------- | ------------- |
-| **Tibetan**                 | 1.7G           | 2.2G          |
-| **Uyghur**                  | 520M           | 736M          |
-| **Kazakh (Arabic)**         | 397M           | 937M          |
-| **Mongolian (Traditional)** | 874M           | 874M          |
+|                             | MC^2 (crawl) | MC^2 (full) |
+| --------------------------- | ------------ | ----------- |
+| **Tibetan**                 | 1.7G         | 2.2G        |
+| **Uyghur**                  | 520M         | 736M        |
+| **Kazakh (Arabic)**         | 397M         | 937M        |
+| **Mongolian (Traditional)** | 874M         | 874M        |
 
-MC$^2$ (crawl) denotes the subset of our newly-collected web crawls. MC$^2$ (full) is the complete set of MC$^2$, which additionally contains texts collected from existing resources.
+MC^2 (crawl) denotes the subset of our newly-collected web crawls. MC^2 (full) is the complete set of MC^2, which additionally contains texts collected from existing resources.
 
 ## Dataset Structure
 
