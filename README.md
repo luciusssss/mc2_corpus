@@ -1,4 +1,4 @@
-# MC^2: Multilingual Corpus of Minority Languages in China
+# MC^2: A Multilingual Corpus of Minority Languages in China
 
 We present MC^2, a **M**ultilingual **C**orpus of **M**inority Languages in **C**hina, which is the largest open-source corpus so far. This corpus encompasses four languages, namely Tibetan, Uyghur, Kazakh written in the Kazakh Arabic script, and Mongolian written in the traditional Mongolian script.
 
@@ -35,9 +35,9 @@ This is an example:
 
 Our data mainly contains three parts.
 
-You can download our web-crawled data [Hugging Face](https://huggingface.co/datasets/pkupie/mc2_corpus).
+You can download our web-crawled data from [Hugging Face](https://huggingface.co/datasets/pkupie/mc2_corpus).
 
-For data from [Culturax](https://huggingface.co/datasets/uonlp/CulturaX) and [WikiPedia](https://huggingface.co/datasets/graelo/wikipedia), you can download and then process them using scripts in this repository. We will upload our scripts soon.
+For data from [Culturax](https://huggingface.co/datasets/uonlp/CulturaX) and [Wikipedia](https://huggingface.co/datasets/graelo/wikipedia), you can download and then process them using scripts in this repository. We will upload our scripts soon.
 
 ## License Information
 
