@@ -2,9 +2,11 @@
 
 We present MC^2, a **M**ultilingual **C**orpus of **M**inority Languages in **C**hina, which is the largest open-source corpus so far. This corpus encompasses four languages, namely Tibetan, Uyghur, Kazakh written in the Kazakh Arabic script, and Mongolian written in the traditional Mongolian script.
 
+Our preprint is now on [Arxiv](https://arxiv.org/abs/2311.08348).
+
 ## Languages and Sizes
 
-There are four minority languages in dataset, and we report the dataset sizes below:
+There are four minority languages in the dataset, and we report the dataset sizes below:
 
 |                             | MC^2 (crawl) | MC^2 (full) |
 | --------------------------- | ------------ | ----------- |
@@ -17,23 +19,25 @@ MC^2 (crawl) denotes the subset of our newly-collected web crawls. MC^2 (full) i
 
 ## Dataset Structure
 
-The dataset has json format, with each line contains one entry with three keys: title, text and url.
+The dataset is in JSON format, with each line containing one entry with three keys: `title`, `text`, and `url`.
 
 This is an example:
 
 ```
-{"title":"پارتيانىڭ مەملەكەتتىك 19 - قۇرىلتايىنىڭ ورىنباسار باس حاتشىلارى","text":"ليۋ چيباۋ، مىڭ جيانجۋ، جاۋ لىجي، لي جانشۋ\n\n\n(شينحۋا اگەنتتىگىنىڭ 17 - قازاندا بەيجيڭنەن بەرگەن حابارى)","url":"kazakh.altxw.com\/system\/2017\/10\/24\/030007713.shtml"}
+{
+  "title":"پارتيانىڭ مەملەكەتتىك 19 - قۇرىلتايىنىڭ ورىنباسار باس حاتشىلارى",
+  "text":"ليۋ چيباۋ، مىڭ جيانجۋ، جاۋ لىجي، لي جانشۋ\n\n\n(شينحۋا اگەنتتىگىنىڭ 17 - قازاندا بەيجيڭنەن بەرگەن حابارى)",
+  "url":"kazakh.altxw.com\/system\/2017\/10\/24\/030007713.shtml"
+}
 ```
 
 ## How to Obtain the Data
 
 Our data mainly contains three parts.
 
-We provide the [download link of our web-crawled data](https://huggingface.co/datasets/pkupie/mc2_corpus).
+You can download our web-crawled data [Hugging Face](https://huggingface.co/datasets/pkupie/mc2_corpus).
 
-For data from [Culturax](https://huggingface.co/datasets/uonlp/CulturaX) and [WikiPedia](https://huggingface.co/datasets/graelo/wikipedia), you can download and then process them using scripts in this repository.
-
-We will upload our scripts soon.
+For data from [Culturax](https://huggingface.co/datasets/uonlp/CulturaX) and [WikiPedia](https://huggingface.co/datasets/graelo/wikipedia), you can download and then process them using scripts in this repository. We will upload our scripts soon.
 
 ## License Information
 
@@ -41,22 +45,29 @@ We released the data under the [Creative Commons CC0 license](http://creativecom
 
 ```
 These data are released under this licensing scheme
-We do not own any of the text from which these data has been extracted.
+We do not own any of the text from which these data have been extracted.
 We license the data under the Creative Commons CC0 license ("no rights reserved") http://creativecommons.org/publicdomain/zero/1.0/
-To the extent possible under law, Peking University have waived all copyright and related or neighboring rights to MC^2
-This work is published from: China.
+To the extent possible under law, Peking University has waived all copyright and related or neighboring rights to MC^2.
 
 Should you consider that our data contains material that is owned by you and should therefore not be reproduced here, please:
-* Clearly identify yourself, with detailed contact data such as an address, telephone number or email address at which you can be contacted.
+* Clearly identify yourself, with detailed contact data such as an address, telephone number, or email address at which you can be contacted.
 * Clearly identify the copyrighted work claimed to be infringed.
 * Clearly identify the material that is claimed to be infringing and information reasonably sufficient to allow us to locate the material.
 
-We will comply to legitimate requests by removing the affected sources from the next release of the corpus.
+We will comply with legitimate requests by removing the affected sources from the next release of the corpus.
 ```
 
 ## Citation Information
 
-TBA
+```
+@article{zhang2023mc2,
+  title={MC^2: A Multilingual Corpus of Minority Languages in China},
+  author={Chen Zhang and Mingxu Tao and Quzhe Huang and Jiuheng Lin and Zhibin Chen and Yansong Feng},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2311.08348}
+}
+```
 
 ## Contributors
 
