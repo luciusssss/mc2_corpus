@@ -37,7 +37,7 @@ Our data mainly contains three parts.
 
 You can download our web-crawled data from [Hugging Face](https://huggingface.co/datasets/pkupie/mc2_corpus).
 
-For data from [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) and [Wikipedia](https://huggingface.co/datasets/graelo/wikipedia), you can download and then process them using scripts in this repository. We will upload our scripts soon.
+For data from [Culturax](https://huggingface.co/datasets/uonlp/CulturaX) and [Wikipedia](https://huggingface.co/datasets/graelo/wikipedia), you can download and then process them using scripts in this repository. We will upload our scripts soon.
 
 ## License Information
 
