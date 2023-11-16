@@ -1,6 +1,6 @@
 # MC^2: A Multilingual Corpus of Minority Languages in China
 
-We present MC^2, a **M**ultilingual **C**orpus of **M**inority Languages in **C**hina, which is the largest open-source corpus so far. This corpus encompasses four languages, namely Tibetan, Uyghur, Kazakh written in the Kazakh Arabic script, and Mongolian written in the traditional Mongolian script.
+We present MC^2, a **M**ultilingual **C**orpus of **M**inority Languages in **C**hina, which is the largest open-source corpus so far. This corpus encompasses four languages, i.e., Tibetan, Uyghur, Kazakh in the Kazakh Arabic script, and Mongolian in the traditional Mongolian script.
 
 Our preprint is now on [Arxiv](https://arxiv.org/abs/2311.08348).
 
