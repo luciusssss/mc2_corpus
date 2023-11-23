@@ -37,7 +37,26 @@ Our data mainly contains three parts.
 
 You can download our web-crawled data from [Hugging Face](https://huggingface.co/datasets/pkupie/mc2_corpus).
 
-For data from [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) and [Wikipedia](https://huggingface.co/datasets/graelo/wikipedia), you can download and then process them using scripts in this repository. We will upload our scripts soon.
+For data from CulturaX and Wikipedia, you can download and then process them using scripts in this repository.
+
+For data from [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX), run `scripts/culturax_to_json.py` with your path to the original `.parquet` file and sha256 file and language type:
+
+```python
+python culturax_to_json.py \
+  --data_dir path/to/culturax/parquet/file \
+  --sha256_dir path/to/sha256/file \
+  --language kk
+```
+
+Sha256 file contains the hash values need to filter and extract to obtain data of uyghur language and kazakh language from the origin CulturaX uyghur data.
+
+For data from [Wikipedia](https://huggingface.co/datasets/graelo/wikipedia), run `scripts/wiki_to_json.py` with your path to the original `.parquet` file and language type:
+
+```python
+python wiki_to_json.py \
+  --data_dir path/to/wikipedia/parquet/file \
+  --language kk
+```
 
 ## License Information
 
