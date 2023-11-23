@@ -48,7 +48,7 @@ python culturax_to_json.py \
   --language kk
 ```
 
-Sha256 file contains the hash values need to filter and extract to obtain data of uyghur language and kazakh language from the origin CulturaX uyghur data.
+`scripts/sha256.json` contains the hash values need to filter and extract to obtain data of uyghur language and kazakh language from the origin CulturaX uyghur data.
 
 For data from [Wikipedia](https://huggingface.co/datasets/graelo/wikipedia), run `scripts/wiki_to_json.py` with your path to the original `.parquet` file and language type:
 
