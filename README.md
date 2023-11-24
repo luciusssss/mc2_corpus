@@ -37,7 +37,7 @@ Our data mainly contains three parts.
 
 You can download our web-crawled data from [Hugging Face](https://huggingface.co/datasets/pkupie/mc2_corpus).
 
-For data from CulturaX and Wikipedia, you can download and then process them using scripts in this repository.
+For data from CulturaX and Wikipedia, you can download and then process them using scripts in this repository:
 
 For data from [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX), run `scripts/culturax_to_json.py` with your path to the original `.parquet` file and sha256 file and language type:
 
@@ -79,12 +79,11 @@ We will comply with legitimate requests by removing the affected sources from th
 ## Citation Information
 
 ```
-@article{zhang2023mc2,
-  title={MC^2: A Multilingual Corpus of Minority Languages in China},
-  author={Chen Zhang and Mingxu Tao and Quzhe Huang and Jiuheng Lin and Zhibin Chen and Yansong Feng},
-  journal={ArXiv},
-  year={2023},
-  volume={abs/2311.08348}
+@article{zhang2023mc,
+  title={MC\^{} 2: A Multilingual Corpus of Minority Languages in China},
+  author={Zhang, Chen and Tao, Mingxu and Huang, Quzhe and Lin, Jiuheng and Chen, Zhibin and Feng, Yansong},
+  journal={arXiv preprint arXiv:2311.08348},
+  year={2023}
 }
 ```
 
