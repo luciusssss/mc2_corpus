@@ -1,8 +1,24 @@
-# MC^2: A Multilingual Corpus of Minority Languages in China
+# MC^2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China
 
-We present MC^2, a **M**ultilingual **C**orpus of **M**inority Languages in **C**hina, which is the largest open-source corpus so far. This corpus encompasses four languages, i.e., Tibetan, Uyghur, Kazakh in the Kazakh Arabic script, and Mongolian in the traditional Mongolian script.
+📑 [**Paper**](https://arxiv.org/abs/2311.08348) 🌐 [**Project Website**](https://luciusssss.github.io/proj/mc2.html) 📊 [**Data**](https://huggingface.co/datasets/pkupie/mc2_corpus)  
 
-Our preprint is now on [Arxiv](https://arxiv.org/abs/2311.08348).
+🤖 [**Model (MC^2XLMR-large)**](https://huggingface.co/pkupie/mc2-xlmr-large) 🤖[**Model (MC^2Llama-13B)**](https://huggingface.co/pkupie/mc2-llama-13b)
+
+![](mc2_example.png)
+
+Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.
+
+To address this accessibility gap, we present **MC^2**, a **M**ultilingual **C**orpus of **M**inority **L**anguages in China, which is the largest open-source corpus of its kind so far. It encompasses four underrepresented languages: Tibetan, Uyghur, Kazakh (in the Kazakh Arabic script), and Mongolian (in the traditional Mongolian script).
+
+* **Underrepresented Scripts**: MC^2 focuses on the less common writing systems of Kazakh and Mongolian, i.e., Kazakh Arabic script and traditional Mongolian script, which have been long neglected in previous corpus construction efforts.
+* **Quality-Centric Collection**: Recognizing the prevalence of language contamination within existing corpora, we adopt a quality-centric solution for collecting MC^2, prioritizing accuracy while enhancing diversity.
+* **Cultural Awareness**: Through geo-cultural probing, We underscore the importance of attending to the multiplicity of writing systems, which is closely related to the cultural awareness of the resulting models.
+* **Open Access**: The MC^2 corpus and related models are made public to the community. The models trained with MC^2 perform comparably to those trained with closed-source corpora.
+
+
+Read our paper for more information:
+[MC^2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China](https://arxiv.org/abs/2311.08348) (ACL 2024).
+
 
 ## Languages and Sizes
 
@@ -13,9 +29,12 @@ There are four minority languages in the dataset, and we report the dataset size
 | **Tibetan**                 | 1.7G         | 2.2G        |
 | **Uyghur**                  | 520M         | 736M        |
 | **Kazakh (Arabic)**         | 397M         | 937M        |
-| **Mongolian (Traditional)** | 874M         | 874M        |
+| **Mongolian (Traditional)** | 970M         | 970M        |
 
 MC^2 (crawl) denotes the subset of our newly-collected web crawls. MC^2 (full) is the complete set of MC^2, which additionally contains texts collected from existing resources.
+
+**Update (JUN 3, 2024):** 
+The Mongolian subset is updated with a larger size (from 874M in `mn-crawl-only-release-20231112.jsonl` to 970M in `mn-crawl-only-release-20231127.jsonl`).
 
 ## Dataset Structure
 
@@ -58,14 +77,24 @@ python wiki_to_json.py \
   --language kk
 ```
 
-## License Information
+
+## Pre-trained Models
+
+We provide two models pre-trained on MC^2.
+Please read the paper for detailed information on model training.
+
+- [MC^2XLMR-large](https://huggingface.co/pkupie/mc2-xlmr-large): XLM-RoBERTa-large continually pretrained on MC^2
+- [MC^2Llama-13B](https://huggingface.co/pkupie/mc2-llama-13b): Llama2-13b continually pretrained on Chinese corpora and MC^2
+
+
+## License
 
 We released the data under the [Creative Commons CC0 license](http://creativecommons.org/publicdomain/zero/1.0/).
 
 ```
-These data are released under this licensing scheme
+These data are released under this licensing scheme:
 We do not own any of the text from which these data have been extracted.
-We license the data under the Creative Commons CC0 license ("no rights reserved") http://creativecommons.org/publicdomain/zero/1.0/
+We license the data under the Creative Commons CC0 license ("no rights reserved") http://creativecommons.org/publicdomain/zero/1.0/.
 To the extent possible under law, Peking University has waived all copyright and related or neighboring rights to MC^2.
 
 Should you consider that our data contains material that is owned by you and should therefore not be reproduced here, please:
@@ -76,7 +105,9 @@ Should you consider that our data contains material that is owned by you and sho
 We will comply with legitimate requests by removing the affected sources from the next release of the corpus.
 ```
 
-## Citation Information
+
+
+## Citation
 
 ```
 @article{zhang2023mc,
