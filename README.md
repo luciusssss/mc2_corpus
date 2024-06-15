@@ -110,11 +110,11 @@ We will comply with legitimate requests by removing the affected sources from th
 ## Citation
 
 ```
-@article{zhang2023mc,
-  title={MC\^{} 2: A Multilingual Corpus of Minority Languages in China},
+@article{zhang2024mc,
+  title={MC$^2$: Towards Transparent and Culturally-Aware NLP for Minority Languages in China},
   author={Zhang, Chen and Tao, Mingxu and Huang, Quzhe and Lin, Jiuheng and Chen, Zhibin and Feng, Yansong},
   journal={arXiv preprint arXiv:2311.08348},
-  year={2023}
+  year={2024}
 }
 ```
 
