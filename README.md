@@ -89,7 +89,7 @@ Please read the paper for detailed information on model training.
 
 
 ## Research Works Using MC^2
-Here are the papers using MC^2 in their research. If you find our resources for your projects, feel free to contact us and we are ready to list your works here.
+Here are the papers using MC^2 in their research. If you find our resources useful for your projects, feel free to contact us and we are ready to list your works here.
 * [Unlocking the Potential of Model Merging for Low-Resource Languages](https://aclanthology.org/2024.findings-emnlp.508/) *Mingxu Tao, Chen Zhang, Quzhe Huang, Tianyao Ma, Songfang Huang, Dongyan Zhao, Yansong Feng*
 * [EMMA-500: Enhancing Massively Multilingual Adaptation of Large Language Models](https://arxiv.org/pdf/2409.17892) *Shaoxiong Ji, Zihao Li, Indraneil Paul, Jaakko Paavola, Peiqin Lin, Pinzhen Chen, Dayyán O'Brien, Hengyu Luo, Hinrich Schütze, Jörg Tiedemann, Barry Haddow*
 * [Multilingual Encoder Knows more than You Realize: Shared Weights Pretraining for Extremely Low-Resource Languages](https://arxiv.org/pdf/2502.10852) *Zeli Su, Ziyin Zhang, Guixian Xu, Jianing Liu, XU Han, Ting Zhang, Yushuang Dong*
