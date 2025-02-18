@@ -87,6 +87,15 @@ Please read the paper for detailed information on model training.
 - [MC^2Llama-13B](https://huggingface.co/pkupie/mc2-llama-13b): Llama2-13b continually pretrained on Chinese corpora and MC^2
 
 
+
+## Research Works Using MC^2
+Here are the papers using MC^2 in their research. If you find our resources for your projects, feel free to contact us and we are ready to list your works here.
+* [Unlocking the Potential of Model Merging for Low-Resource Languages](https://aclanthology.org/2024.findings-emnlp.508/) *Mingxu Tao, Chen Zhang, Quzhe Huang, Tianyao Ma, Songfang Huang, Dongyan Zhao, Yansong Feng*
+* [EMMA-500: Enhancing Massively Multilingual Adaptation of Large Language Models](https://arxiv.org/pdf/2409.17892) *Shaoxiong Ji, Zihao Li, Indraneil Paul, Jaakko Paavola, Peiqin Lin, Pinzhen Chen, Dayyán O'Brien, Hengyu Luo, Hinrich Schütze, Jörg Tiedemann, Barry Haddow*
+* [Multilingual Encoder Knows more than You Realize: Shared Weights Pretraining for Extremely Low-Resource Languages](https://arxiv.org/pdf/2502.10852) *Zeli Su, Ziyin Zhang, Guixian Xu, Jianing Liu, XU Han, Ting Zhang, Yushuang Dong*
+
+
+
 ## License
 
 We released the data under the [Creative Commons CC0 license](http://creativecommons.org/publicdomain/zero/1.0/).
@@ -107,14 +116,29 @@ We will comply with legitimate requests by removing the affected sources from th
 
 
 
+
 ## Citation
 
 ```
-@article{zhang2024mc,
-  title={MC$^2$: Towards Transparent and Culturally-Aware NLP for Minority Languages in China},
-  author={Zhang, Chen and Tao, Mingxu and Huang, Quzhe and Lin, Jiuheng and Chen, Zhibin and Feng, Yansong},
-  journal={arXiv preprint arXiv:2311.08348},
-  year={2024}
+@inproceedings{zhang-etal-2024-mc2,
+    title = "{MC}$^2$: Towards Transparent and Culturally-Aware {NLP} for Minority Languages in {C}hina",
+    author = "Zhang, Chen  and
+      Tao, Mingxu  and
+      Huang, Quzhe  and
+      Lin, Jiuheng  and
+      Chen, Zhibin  and
+      Feng, Yansong",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.479/",
+    doi = "10.18653/v1/2024.acl-long.479",
+    pages = "8832--8850",
 }
 ```
 
