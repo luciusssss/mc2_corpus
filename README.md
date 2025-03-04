@@ -19,6 +19,9 @@ To address this accessibility gap, we present **MC^2**, a **M**ultilingual **C**
 Read our paper for more information:
 [MC^2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China](https://arxiv.org/abs/2311.08348) (ACL 2024).
 
+**Update (MAR 4, 2024):** 
+We release **MiLiC-Eval**, an NLP evaluation suite for minority languages in China. One can evaluate the models trained on MC^2 more easily now!
+[[Github]](https://github.com/luciusssss/MiLiC-Eval) [[Paper]](https://arxiv.org/pdf/2503.01150)
 
 ## Languages and Sizes
 
@@ -90,6 +93,7 @@ Please read the paper for detailed information on model training.
 
 ## Research Works Using MC^2
 Here are the papers using MC^2 in their research. If you find our resources useful for your projects, feel free to contact us and we are ready to list your works here.
+* [MiLiC-Eval: Benchmarking Multilingual LLMs for China's Minority Languages](https://arxiv.org/pdf/2503.01150) *Chen Zhang, Mingxu Tao, Zhiyuan Liao, Yansong Feng*
 * [Unlocking the Potential of Model Merging for Low-Resource Languages](https://aclanthology.org/2024.findings-emnlp.508/) *Mingxu Tao, Chen Zhang, Quzhe Huang, Tianyao Ma, Songfang Huang, Dongyan Zhao, Yansong Feng*
 * [EMMA-500: Enhancing Massively Multilingual Adaptation of Large Language Models](https://arxiv.org/pdf/2409.17892) *Shaoxiong Ji, Zihao Li, Indraneil Paul, Jaakko Paavola, Peiqin Lin, Pinzhen Chen, Dayyán O'Brien, Hengyu Luo, Hinrich Schütze, Jörg Tiedemann, Barry Haddow*
 * [Multilingual Encoder Knows more than You Realize: Shared Weights Pretraining for Extremely Low-Resource Languages](https://arxiv.org/pdf/2502.10852) *Zeli Su, Ziyin Zhang, Guixian Xu, Jianing Liu, XU Han, Ting Zhang, Yushuang Dong*
