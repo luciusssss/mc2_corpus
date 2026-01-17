@@ -1,6 +1,6 @@
 # MC^2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China
 
-📑 [**Paper**](https://arxiv.org/abs/2311.08348) 🌐 [**Project Website**](https://luciusssss.github.io/proj/mc2.html) 📊 [**Data**](https://huggingface.co/datasets/pkupie/mc2_corpus)  
+📑 [**Paper**](https://aclanthology.org/2024.acl-long.479/) 🌐 [**Project Website**](https://luciusssss.github.io/proj/mc2.html) 📊 [**Data**](https://huggingface.co/datasets/pkupie/mc2_corpus)  
 
 🤖 [**Model (MC^2XLMR-large)**](https://huggingface.co/pkupie/mc2-xlmr-large) 🤖[**Model (MC^2Llama-13B)**](https://huggingface.co/pkupie/mc2-llama-13b)
 
@@ -17,11 +17,11 @@ To address this accessibility gap, we present **MC^2**, a **M**ultilingual **C**
 
 
 Read our paper for more information:
-[MC^2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China](https://arxiv.org/abs/2311.08348) (ACL 2024).
+[MC^2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China](https://aclanthology.org/2024.acl-long.479/) (ACL 2024).
 
 **Update (MAR 4, 2024):** 
 We release **MiLiC-Eval**, an NLP evaluation suite for minority languages in China. One can evaluate the models trained on MC^2 more easily now!
-[[Github]](https://github.com/luciusssss/MiLiC-Eval) [[Paper]](https://arxiv.org/pdf/2503.01150)
+[[Github]](https://github.com/luciusssss/MiLiC-Eval) [[Paper]](https://aclanthology.org/2025.findings-acl.578/)
 
 ## Languages and Sizes
 
